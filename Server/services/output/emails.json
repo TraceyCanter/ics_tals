@@ -2,12 +2,26 @@
   "data": [
     {
       "data": {
-        "Subject": "FW: LICENSE IN ARREARS",
-        "From": "Client ServiceSupport <Tal.clientservices@westerncape.gov.za>",
+        "Subject": null,
+        "From": "Naomi James <njamesnk@gmail.com>",
+        "To": "Transport.Licensing@westerncape.gov.za",
+        "Cc": null,
+        "Date": "Mon, 15 Feb 2021 09:25:17 GMT",
+        "Id": 2479,
+        "Text": null,
+        "Html": null,
+        "ContentType": "",
+        "Attachments": null
+      }
+    },
+    {
+      "data": {
+        "Subject": "WOLF: CA666649 - S Nyama ",
+        "From": "Zayde Petersen <Zayde.Petersen@westerncape.gov.za>",
         "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
         "Cc": null,
-        "Date": "Wed, 10 Feb 2021 14:31:40 +0200",
-        "Id": 2390,
+        "Date": "Mon, 15 Feb 2021 11:27:54 +0200",
+        "Id": 2480,
         "Text": null,
         "Html": null,
         "ContentType": "",
@@ -16,26 +30,12 @@
     },
     {
       "data": {
-        "Subject": "Fwd: Application i.r.o outstanding licence fees-ZV Andrews",
-        "From": "\"zahenleys@mweb.co.za\" <zahenleys@mweb.co.za>",
-        "To": "tal.licensingapps@westerncape.gov.za",
-        "Cc": "Meloney Layters-Abrahams <Meloney.Layters-Abrahams@westerncape.gov.za>",
-        "Date": "Wed, 10 Feb 2021 13:05:49 GMT",
-        "Id": 2391,
-        "Text": null,
-        "Html": null,
-        "ContentType": "",
-        "Attachments": null
-      }
-    },
-    {
-      "data": {
-        "Subject": "RE: Updated list of all authorized to request printouts",
-        "From": "Parker Asif <AParker@justice.gov.za>",
-        "To": "Desiree Talmarkes <Desiree.Talmarkes@westerncape.gov.za>",
+        "Subject": "MTN - Procor PTY LTD  ",
+        "From": "Zayde Petersen <Zayde.Petersen@westerncape.gov.za>",
+        "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
         "Cc": null,
-        "Date": "Wed, 10 Feb 2021 13:06:38 GMT",
-        "Id": 2392,
+        "Date": "Mon, 15 Feb 2021 11:44:06 +0200",
+        "Id": 2481,
         "Text": null,
         "Html": null,
         "ContentType": "",
@@ -44,12 +44,12 @@
     },
     {
       "data": {
-        "Subject": "Cancellation of CAR license fee PENALTIES.",
-        "From": "Michael McPherson <mcpherso22@hotmail.com>",
-        "To": "\"tal.licensingapps@westerncape.gov.za\"\r\n<tal.licensingapps@westerncape.gov.za>, \"Kleinsmith, Moegamat\"\r\n<Vehicle.Licence@capetown.gov.za>",
+        "Subject": "FW: personal number plate WP [Incident: 210211-000318]",
+        "From": "Leonard Maschilla <Leonard.Maschilla@westerncape.gov.za>",
+        "To": "npasrec <Tal.numberplates@westerncape.gov.za>",
         "Cc": null,
-        "Date": "Wed, 10 Feb 2021 13:09:11 +0000",
-        "Id": 2393,
+        "Date": "Mon, 15 Feb 2021 12:05:33 +0200",
+        "Id": 2482,
         "Text": null,
         "Html": null,
         "ContentType": "",
@@ -58,68 +58,68 @@
     },
     {
       "data": {
-        "Subject": "PRESS RELEASES & MEDIA ALERTS FOR WCG FOR WEDNESDAY, 10 FEBRUARY 2021",
+        "Subject": "E: Estate Late RP Stroebel || Application for Duplicate Motor Vehicle\r\nRegistration Certificate  DATSUN PICKUP - [External Email]",
+        "From": "\"Lotze, Michelle\" <MLotze@fnb.co.za>",
+        "To": "\"Transport.licensing@westerncape.gov.za\"\r\n<Transport.licensing@westerncape.gov.za>",
+        "Cc": null,
+        "Date": "Mon, 15 Feb 2021 10:09:45 GMT",
+        "Id": 2483,
+        "Text": null,
+        "Html": null,
+        "ContentType": "",
+        "Attachments": null
+      }
+    },
+    {
+      "data": {
+        "Subject": "WOLF: Mr S Chisambamuto - CA243554/BZS620C",
+        "From": "Zayde Petersen <Zayde.Petersen@westerncape.gov.za>",
+        "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
+        "Cc": null,
+        "Date": "Mon, 15 Feb 2021 12:54:28 +0200",
+        "Id": 2484,
+        "Text": null,
+        "Html": null,
+        "ContentType": "",
+        "Attachments": null
+      }
+    },
+    {
+      "data": {
+        "Subject": "WOLF: John Tshimbu-Kalenga CF126377",
+        "From": "Zayde Petersen <Zayde.Petersen@westerncape.gov.za>",
+        "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
+        "Cc": null,
+        "Date": "Mon, 15 Feb 2021 13:57:58 +0200",
+        "Id": 2485,
+        "Text": null,
+        "Html": null,
+        "ContentType": "",
+        "Attachments": null
+      }
+    },
+    {
+      "data": {
+        "Subject": "RE: BAC APPLICATION - DH DAVIS 581226 5114 085 (FJW044W)",
+        "From": "Meloney Layters-Abrahams <Meloney.Layters-Abrahams@westerncape.gov.za>",
+        "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
+        "Cc": null,
+        "Date": "Mon, 15 Feb 2021 14:08:59 +0200",
+        "Id": 2486,
+        "Text": null,
+        "Html": null,
+        "ContentType": "",
+        "Attachments": null
+      }
+    },
+    {
+      "data": {
+        "Subject": "PRESS RELEASES & MEDIA ALERTS FOR WCG FOR MONDAY, 15 FEBRUARY 2021 ",
         "From": "Corporate Communication <Corporate.Communication@westerncape.gov.za>",
         "To": "Corporate Communication <Corporate.Communication@westerncape.gov.za>",
         "Cc": null,
-        "Date": "Wed, 10 Feb 2021 15:22:09 +0200",
-        "Id": 2394,
-        "Text": null,
-        "Html": null,
-        "ContentType": "",
-        "Attachments": null
-      }
-    },
-    {
-      "data": {
-        "Subject": "Request for reduction",
-        "From": "faizel simons <faizelsimons@gmail.com>",
-        "To": "Transport.licensing@westerncape.gov.za",
-        "Cc": null,
-        "Date": "Wed, 10 Feb 2021 13:43:52 GMT",
-        "Id": 2395,
-        "Text": null,
-        "Html": null,
-        "ContentType": "",
-        "Attachments": null
-      }
-    },
-    {
-      "data": {
-        "Subject": "Admin Mark",
-        "From": "Riaard Rabikissoon <rr24hrtowing@gmail.com>",
-        "To": "tal.licensingapps@westerncape.gov.za",
-        "Cc": null,
-        "Date": "Wed, 10 Feb 2021 13:51:55 GMT",
-        "Id": 2396,
-        "Text": null,
-        "Html": null,
-        "ContentType": "",
-        "Attachments": null
-      }
-    },
-    {
-      "data": {
-        "Subject": "Fwd: Application i.r.o outstanding licence fees-CFM37302",
-        "From": "Wayne Jones <waynetroyjones2@gmail.com>",
-        "To": "Transport Licensing <Tal.licensingapps@westerncape.gov.za>",
-        "Cc": null,
-        "Date": "Wed, 10 Feb 2021 13:54:27 GMT",
-        "Id": 2397,
-        "Text": null,
-        "Html": null,
-        "ContentType": "",
-        "Attachments": null
-      }
-    },
-    {
-      "data": {
-        "Subject": "Discount on outstanding license fees and penalties  waived",
-        "From": "Leon Van zyl <leonvzyl@yahoo.com>",
-        "To": "Transport Licensing <tal.licensingapps@westerncape.gov.za>",
-        "Cc": "\"rickyisaks@gmail.com\" <rickyisaks@gmail.com>",
-        "Date": "Wed, 10 Feb 2021 13:53:15 GMT",
-        "Id": 2398,
+        "Date": "Mon, 15 Feb 2021 15:11:27 +0200",
+        "Id": 2487,
         "Text": null,
         "Html": null,
         "ContentType": "",

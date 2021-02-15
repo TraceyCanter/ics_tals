@@ -2,21 +2,21 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const apiRoutes = require('./routes/api');
-const multer = require('multer')
 const JSONError = require('./services/JSONError');
 
 const port = process.env.PORT || 3000
 const apiTimeout = 10 * 500;
+
 
 const allowCrossDomain = function (req, res, next) {
   res.header('Access-Control-Allow-Origin', '*')
   res.header('Access-Control-Allow-Credentials', true)
   res.header('Access-Control-Allow-Methods', 'GET,HEAD,OPTIONS,POST,PUT')
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization')
-  res.header('Content-Type: application/json, charset=utf-8')
+  // res.header('Content-Type: application/json, charset=utf-8')
+  res.header('Content-Type: application/x-www-form-urlencoded')
   next()
 }
-
 
 const app = express();
 app.use(express.urlencoded({
@@ -34,6 +34,7 @@ function errorHandler(err, req, res, next) {
   if (res.headersSent) {
     return next(err)
   }
+  else 
   if (err instanceof JSONError) {
     return res.status(err.status).json({
       status: err.status,
@@ -45,5 +46,4 @@ function errorHandler(err, req, res, next) {
 }
 
 app.use(errorHandler);
-
 app.listen(port, () => console.log(`Emailservice listening on port ${port}`))
