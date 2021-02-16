@@ -15,7 +15,30 @@ eml-format      -   A pure Node.js library for parsing and building EML files
 
 ## Initialize the Express.js server
 
-pm2 start index.js
+# Start 
+pm2 reload ecosystem.config.js --env=production
+# Status 
+pm2 status
+# Stop 
+pm2 stop all
+
+## Create the windows service - This will create a Windows Service called PM2
+1. Install Node module
+npm install -g pm2-windows-service
+2. As administrator, open command line, run:
+pm2-service-install -n PM2
+
+and set the following:
+
+? Perform environment setup (recommended)? Yes
+? Set PM2_HOME? Yes
+? PM2_HOME value (this path should be accessible to the service user and
+should not contain any “user-context” variables [e.g. %APPDATA%]): c:\etc\.pm2\
+? Set PM2_SERVICE_SCRIPTS (the list of start-up scripts for pm2)? No
+? Set PM2_SERVICE_PM2_DIR (the location of the global pm2 to use with the service)? [recommended] Yes
+? Specify the directory containing the pm2 version to be used by the
+service C:\Users\C0690529\AppData\Roaming\npm\node_modules\pm2\index.js
+
 
 ## View emails in browser
 
