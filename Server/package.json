@@ -6,8 +6,7 @@
     "test": "npm run lint",
     "start": "pm2 reload ecosystem.config.js --env=production",
     "precommit": "lint-staged",
-    "lint": "eslint --ext .js,.vue src",
-    "dev": "--config build/webpack.dev.conf.js"
+    "lint": "eslint --ext .js,.vue src"
   },
   "author": "",
   "license": "ISC",

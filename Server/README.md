@@ -39,6 +39,10 @@ should not contain any “user-context” variables [e.g. %APPDATA%]): c:\etc\.p
 ? Specify the directory containing the pm2 version to be used by the
 service C:\Users\C0690529\AppData\Roaming\npm\node_modules\pm2\index.js
 
+## Deploy the service
+Create a new web app: ics-email-server
+
+
 
 ## View emails in browser
 
