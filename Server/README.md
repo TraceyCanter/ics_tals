@@ -22,6 +22,18 @@ pm2 status
 # Stop 
 pm2 stop all
 
+
+Right-click in workspace -> Select deploy operation -> deploy selected folder (this will generate a .zip file in /out)
+Azure -> Free Trial -> Expand ICSEmailService -> WebJobs -> Right-click -> Open in Portal -> Add WebJobs -> Upload Zip File -> Continous
+
+
+
+     dotnet publish --configuration Release
+
+
+Install Azure App Service
+
+
 ## Create the windows service - This will create a Windows Service called PM2
 1. Install Node module
 npm install -g pm2-windows-service
@@ -42,7 +54,11 @@ service C:\Users\C0690529\AppData\Roaming\npm\node_modules\pm2\index.js
 ## Deploy the service
 Create a new web app: ics-email-server
 
-
+## Create Console application
+dotnet new console -o "EmailConsoleService"
+cd EmailConsoleService
+Run dotnet restore command to resolve the dependencies of the project and give you access to the required .NET Core packages that are needed to build your project
+dotnet run
 
 ## View emails in browser
 
