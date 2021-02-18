@@ -23,8 +23,9 @@ pm2 status
 pm2 stop all
 
 
-Right-click in workspace -> Select deploy operation -> deploy selected folder (this will generate a .zip file in /out)
-Azure -> Free Trial -> Expand ICSEmailService -> WebJobs -> Right-click -> Open in Portal -> Add WebJobs -> Upload Zip File -> Continous
+1. Right-click in workspace -> Select deploy operation -> deploy selected folder (this will generate a .zip file in /out)
+2. Commit to repo.
+3. Azure -> Free Trial -> Expand ICSEmailService -> WebJobs -> Right-click -> Open in Portal -> Add WebJobs -> Upload Zip File -> Continous
 
 
 
