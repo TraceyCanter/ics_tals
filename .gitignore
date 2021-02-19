@@ -33,3 +33,4 @@ packages/
 /Server/*.env
 /Server/.env
 .env
+node_modules
