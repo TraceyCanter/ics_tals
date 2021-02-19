@@ -1,5 +1,5 @@
 var nodemailer = require('nodemailer')
-var config = require('../config/config.json')
+var config = require('../config/nodemailer.config.json')
 var amqplib = require('amqplib/callback_api')
 
 module.exports = {

@@ -3,10 +3,10 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const apiRoutes = require('../routes/api');
 const JSONError = require('../services/JSONError');
-//require('dotenv').config()
 
 const port = process.env.PORT || 3000;
 const apiTimeout = 10 * 500;
+console.log("port" , port)
 
 
 const allowCrossDomain = function (req, res, next) {

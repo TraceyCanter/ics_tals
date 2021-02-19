@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5981af44-30ac-43b9-9006-c16adb1d6122/resourceGroups/ICSEmailService/providers/Microsoft.Web/sites/ICSEmailService",
+    "appService.deploySubpath": "."
+}
