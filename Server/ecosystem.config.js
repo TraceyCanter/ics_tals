@@ -17,17 +17,17 @@ module.exports = {
     "production" : {
       "user" : "TraceyCanter",
       "host" : "212.83.163.1",
-      "repo" : "https://github.com/TraceyCanter/ics_tals",
+      "repo" : "https://dev.azure.com/tscanter0583/Email_Service/_git/Email_Service",
       "ref"  : "origin/master",
-      "path" : "/var/www/production",
+      "path" : "Server",
       "post-deploy" : "pm2 startOrRestart ecosystem.config.js --env production"
     },
     "dev" : {
       "user" : "TraceyCanter",
       "host" : "212.83.163.1",
-      "repo" : "https://github.com/TraceyCanter/ics_tals",
+      "repo" : "https://dev.azure.com/tscanter0583/Email_Service/_git/Email_Service",
       "ref"  : "origin/master",
-      "path" : "/var/www/development",
+      "path" : "/Server",
       "post-deploy" : "pm2 startOrRestart ecosystem.config.js --env production"
     }
   }
