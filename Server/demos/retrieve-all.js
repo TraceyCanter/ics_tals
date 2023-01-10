@@ -2,15 +2,16 @@
 	Node.js POP3 client demo in retrieving all POP3 messages into mbox file
 	node ./demos/retrieve-all.js --username Enatis.UserAdmin@westerncape.gov.za --password RvB80cnO --filename ./demos/allEmails.txt
 	node ./demos/retrieve-all.js --username transport.licensing@westerncape.gov.za --password 5Eb81c95f3cA --tls on --filename ./demos/allEmails.txt
-	var host = "mail.westerncape.gov.za";
-	var port = 110;
+	# no longer used var host = "mail.westerncape.gov.za"; var port = 110;
+	var host = "outlook.office365.com";
+	var port = 995	
 	var debug = true;
 	var enabletls = false;
 */
 
 var util = require("util");
 var fs = require("fs");
-var POP3Client = require("../lib/main");
+var POP3Client = require("./../src/lib/main");
 var argv = require('optimist')
 	.usage("Usage: $0 --host [host] --port [port] --username [username] --password [password] --filename [filename] --debug [on/off] --networkdebug [on/off] --tls [on/off] --msgnumber[msgnumber] ")
 	.demand(['username', 'password', 'filename'])

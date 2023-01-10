@@ -10,17 +10,25 @@ The server will run Express with NodeMailer and Pop3 client
 express:        -   Allows to set up middlewares to respond to HTTP Requests. A backend framework for Node.js.
 body-parser:    −   This is a node.js middleware for handling JSON, Raw, Text and URL encoded form data.
 eml-format      -   A pure Node.js library for parsing and building EML files
+pm2:            -   daemon process manager that will help you manage and keep your application online
+pm2API:         -    https://pm2.keymetrics.io/docs/usage/pm2-api/
 
 ## Live
 
 ## Initialize the Express.js server
 
 # Start 
+npm install pm2 -g (to install the latest version)
+pm2 update
 pm2 reload ecosystem.config.js --env=production
 # Status 
 pm2 status
+# Status 
+pm2 plus
 # Stop 
 pm2 stop all
+# Disconnect
+pm2.disconnect()
 
 
 1. Right-click in workspace -> Select deploy operation -> deploy selected folder (this will generate a .zip file in /out)
@@ -55,6 +63,13 @@ service C:\Users\C0690529\AppData\Roaming\npm\node_modules\pm2\index.js
 ## Deploy the service
 Create a new web app: ics-email-server
 
+
+## Azure DevOps Services
+az login
+az devops configure --defaults organization=https://dev.azure.com/tscanter0583 project=Email_Service
+az pipelines run --name myGithubname.pipelines-java --branch pipeline --output table
+
+
 ## Create Console application
 dotnet new console -o "EmailConsoleService"
 cd EmailConsoleService
@@ -79,11 +94,15 @@ A simple example of downloading all emails in a POP3 server and saving it locall
 Note: Ensure you are connected to the VPN in order to connect to westerncape government mail server 
 
 node ./demos/retrieve-all.js --username Enatis.UserAdmin@westerncape.gov.za --password RvB80cnO --filename ./demos/allEmails.txt
+New Password
+node ./demos/retrieve-all.js --username Enatis.UserAdmin@westerncape.gov.za --password 8Ec91c98f3cG --filename ./demos/allEmails.txt
+TRANSPORT LICENCING
+node ./demos/retrieve-all.js --username transport.licensing@westerncape.gov.za --password 5Eb81c95f3cA --tls on --filename ./demos/allEmails.txt
 
 ## Retrieve a single email
 
 Note: Ensure you are connected to the VPN
-node ./demos/retrieve-single.js --username Enatis.UserAdmin@westerncape.gov.za --password RvB80cnO --filename ./demos/singleEmail.txt
+node ./demos/retrieve-single.js --username Enatis.UserAdmin@westerncape.gov.za --password 8Ec91c98f3cG --filename ./demos/singleEmail.txt
 
 ## Read emails text file
 

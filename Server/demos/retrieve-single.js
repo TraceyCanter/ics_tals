@@ -1,19 +1,24 @@
 /*
 	Node.js POP3 client demo retrieve single
 	node ./demos/retrieve-single.js --username Enatis.UserAdmin@westerncape.gov.za --password RvB80cnO --filename ./demos/displayAllEmails.js
-*/
+    node ./demos/retrieve-single.js --username transport.licensing@westerncape.gov.za --password 5Eb81c95f3cA --filename ./demos/singleEmail.txt
+
+	var host = "mail.westerncape.gov.za";
+	var port = argv.port || 110;
+	*/
 
 var util = require("util");
 var fs = require("fs");
-var POP3Client = require("../lib/main");
+var POP3Client = require("./../src/lib/main");
 var argv = require('optimist')
    .usage("Usage: $0 --host [host] --port [port] --username [username] --password [password] --tls [on/off] --debug [on/off] --networkdebug [on/off] --msgnumber [number]")
    .demand(['username', 'password'])
 	.argv;
 				
 				
-var host = "mail.westerncape.gov.za";
-var port = argv.port || 110;
+
+var host = "outlook.office365.com";
+var port = 995;
 var debug = argv.debug === "on" ? true : false;
 var enabletls = argv.tls === "on" ? true : false;
 var msgnumber = argv.msgnumber;

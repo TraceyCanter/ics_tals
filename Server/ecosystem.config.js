@@ -2,7 +2,7 @@ module.exports = {
   apps: [
   {
     name: "app",
-    script: "./apps/app.js", "ignore_watch" : [ "./services/output" ],
+    script: "./src/apps/app.js", "ignore_watch" : [ "./src/services/output" ],
     env: {
       "NODE_ENV": "development",
     },    
@@ -28,7 +28,7 @@ module.exports = {
       "repo" : "https://dev.azure.com/tscanter0583/Email_Service/_git/Email_Service",
       "ref"  : "origin/master",
       "path" : "/Server",
-      "post-deploy" : "pm2 startOrRestart ecosystem.config.js --env production"
+      "post-deploy" : "pm2 startOrRestart ecosystem.config.js --env development"
     }
   }
 }
